@@ -1,21 +1,89 @@
-# 💰 Personal Finance Management App
+# 💰 Personal Finance Tracker (Flask)
 
-A simple web-based finance tracker that helps you manage your expenses, set category-based budgets, and visualize spending with interactive charts.
+A clean and responsive web application to track income, expenses, and visualize spending using Python (Flask), SQLite, and Chart.js.
+
+---
 
 ## 🚀 Features
 
-- ✅ Add income and expense transactions
-- ✅ Set budgets for each category
-- ✅ Track remaining budget and get alerts when overspending
-- ✅ View summary of total income, expenses, and balance
-- ✅ Interactive pie chart of spending by category (via Chart.js)
-- ✅ Stores data locally using `localStorage`
+- 📊 Dashboard displaying **Income**, **Expenses**, and **Balance**
+- 🧾 Add transactions with **type**, **description**, **amount**, and **category**
+- 📈 Visualize expense distribution using a **Doughnut Chart** (Chart.js)
+- 🎨 Clean, responsive UI with **Bootstrap 5** and custom styling
+- 💾 Data stored in **SQLite database**
 
+---
 
 ## 🛠️ Technologies Used
 
-- HTML5 & CSS3
-- Vanilla JavaScript
-- Chart.js for data visualization
-- LocalStorage for persistence
+- Python 3
+- Flask
+- SQLite3
+- Bootstrap 5
+- Chart.js
+- HTML, CSS, JavaScript
+
+---
+
+## 📁 Project Structure
+
+```
+finance-app/
+├── app.py                # Flask application
+├── requirements.txt      # Python dependencies
+├── database.db           # SQLite database (auto-generated)
+├── templates/
+│   ├── layout.html       # Base HTML template
+│   └── index.html        # Dashboard and transaction form
+├── static/
+│   ├── css/
+│   │   └── styles.css    # Custom styling
+│   └── js/
+│       └── script.js     # Chart rendering logic
+└── README.md             # Project documentation
+```
+
+---
+
+## 🧪 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/finance-app.git
+cd finance-app
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the App
+```bash
+python app.py
+```
+Visit `http://127.0.0.1:5000` in your browser.
+
+---
+
+
+---
+
+## 🔧 Future Enhancements
+
+- User authentication (login/signup)
+- Monthly summaries & filtering
+- Export to CSV or PDF
+- Mobile app version with React Native or Flutter
+
+---
+
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+**Built with ❤️ using Python & Flask**
 
