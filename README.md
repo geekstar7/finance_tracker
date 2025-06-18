@@ -49,7 +49,7 @@ finance-app/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/finance-app.git
+https://github.com/geekstar7/finance_tracker
 cd finance-app
 ```
 
