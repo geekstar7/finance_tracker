@@ -1,0 +1,32 @@
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-header {
+  font-weight: 600;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
